@@ -1,0 +1,181 @@
+/*первичный цвет текста #212121
+вторичный цвет текста #757575
+акцент #2196F3*/
+:root{
+    --primiry:#212121;
+    --secondary: #757575;
+    --acent:#2196F3;
+   
+}
+
+body {
+    background-color: #F5F5F5;
+    color: var(--primiry);
+    font-family: roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.logo{
+    font-family: raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em ;
+    color: var(--primiry);
+    
+}
+.logo-span{
+    color: var(--acent);
+
+}
+
+.font-style{
+    color: var(--secondary);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+}
+
+
+.nav-menu .font-style{
+    color: var(--primiry);
+    font-weight: 500;
+    
+}
+
+.nav-contacts .font-style{
+    font-weight: 500;
+}
+
+.nav-menu .font-style.current{
+    color: var(--acent);
+}
+
+.nav-contacts .font-style:hover, 
+.nav-contacts .font-style:focus,
+.nav-menu .font-style:focus,
+.nav-menu .font-style:hover
+{
+    color: var(--acent);
+}
+
+.headlines-style{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: calc(16/14);
+    color: var(--primiry);
+    letter-spacing: 0.03em;
+}
+
+.header-style{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: calc(42/36);
+    color: var(--primiry);
+    text-align: center;
+}
+
+.effective-solutions .header-style{
+    text-transform: uppercase;
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: calc(60/44);
+    background-color: #2F303A;
+}
+
+.benefits .headlines-style{
+    text-transform: uppercase;
+
+}
+.benefits .font-style{
+    font-weight: 400;
+    line-height: calc(24/14);
+    color: var(--secondary);
+}
+
+.command .headlines-style{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(19/16);
+}
+
+.command .font-style{
+    font-size: 16px;
+    line-height: calc(19/16);
+    color: var(--secondary);
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer .logo{
+    color: #FFFFFF;
+}
+
+.adress .font-style{
+    font-style: normal;
+    color: white;
+    line-height: calc(24/12);
+}
+
+.adress .font-style.color-contacts{
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.adress .font-style:hover,
+.adress .font-style:focus
+{
+    color: var(--acent);
+}
+
+
+.btn-style{
+    background-color: var(--acent);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: calc(30/16);
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btns .btn-style{
+    background-color: #F5F4FA;
+    color: var(--primiry);
+    font-weight: 500;
+    line-height: calc(26/16);
+    letter-spacing: 0.03em;
+}
+
+.btns .btn-style:hover,
+.btns .btn-style:focus
+{
+    background-color: var(--acent);
+    color: white;
+}
+
+.items .headlines-style{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: calc(36/18);
+    letter-spacing: 0.06em;
+
+}
+
+.items .font-style{
+    font-size: 16px;
+    line-height: calc(30/16);
+
+}
