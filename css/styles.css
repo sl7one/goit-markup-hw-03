@@ -176,7 +176,7 @@ header .container{
     text-align: center;
 }
 
-.command li:not(:first-child){
+.command > li:not(:first-child){
     margin-left: 30px;
 }
 
