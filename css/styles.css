@@ -35,6 +35,10 @@ span {
   padding: 0px;
 }
 
+img {
+  display: block;
+}
+
 .logo {
   font-family: raleway, sans-serif;
   font-size: 26px;
