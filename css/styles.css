@@ -175,13 +175,6 @@ header .container {
   margin-left: 30px;
 }
 
-.item-container {
-  padding-top: 30px;
-  padding-bottom: 16px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .command .headlines-style {
   font-size: 16px;
   font-weight: 500;
@@ -205,7 +198,9 @@ header .container {
 
 .logo.logo-color {
   color: white;
-  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 .adress .font-style {
@@ -280,7 +275,7 @@ header .container {
 }
 
 .items {
-  display: inline-block;
+  display: block;
 }
 
 .item-container {
@@ -288,11 +283,15 @@ header .container {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .items .item-container {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .works {
@@ -312,11 +311,6 @@ header .container {
   margin-top: 0px;
 }
 
-.works .font-style,
-.works .headlines-style {
-  padding: 0px 24px;
-}
-
 .works-img {
   display: flex;
 }
@@ -329,7 +323,7 @@ header .container {
   padding-right: 0px;
 }
 
-.section.bg-color {
+.bg-color {
   background-color: var(--icon-bgc);
 }
 /*----------------------------------------container*/
