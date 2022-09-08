@@ -245,6 +245,9 @@ header .container {
   padding: 10px 32px;
   min-width: 73px;
   text-align: center;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .btns .btn-style {
@@ -254,6 +257,7 @@ header .container {
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   padding: 6px 22px;
+  box-shadow: none;
 }
 
 .btn-style.btn-bottom {
@@ -280,6 +284,9 @@ header .container {
 
 .items {
   display: block;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .item-container {
@@ -292,13 +299,16 @@ header .container {
 .command-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
   background-color: white;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .items .item-container {
   padding-left: 24px;
   padding-right: 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .works {
@@ -356,4 +366,18 @@ header .container {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
